@@ -1,0 +1,38 @@
+/*  Name: Desmond Goodman-Ahearn, Katelen Tellez, Jack Bell
+     Final Project:  BlackJack
+     Purpose: The CSS file for profile.html */
+body {
+    background-color: black;
+    margin: 0px;
+    border-style: dotted;
+    border-color: white;
+    border-width: 8px;
+}
+
+#page {
+    border: dotted rgb(247, 191, 35) 5px;
+}
+
+#profileBack {
+    padding: 10px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    border: ridge rgb(247, 191, 35)  5px;
+    color: white;
+    background-color: black;
+}
+
+.profileImg {
+    height: 150px;
+    width: 150px;
+}
+
+.imgDiv {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}

@@ -1,0 +1,56 @@
+/*  Name: Desmond Goodman-Ahearn, Katelen Tellez, Jack Bell
+     Final Project:  BlackJack
+     Purpose: The CSS file for stats.html */
+
+body {
+    background-color: black;
+    margin: 0px;
+    border-style: dotted;
+    border-color: white;
+    border-width: 8px;
+}
+
+#page {
+    border: dotted rgb(247, 191, 35) 5px;
+}
+
+#statsBack {
+    padding: 10px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border: ridge rgb(247, 191, 35) 5px;
+    color: white;
+    background-color: black;
+}
+
+#profile_pic {
+    display: block;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+#userAttr {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+#statsDiv {
+    color: white;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#diclamer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}

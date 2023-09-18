@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- Name: Desmond Goodman-Ahearn, Katelen Tellez, Jack Bell
+     Final Project:  BlackJack
+     Purpose: The settings page where the user chooses their settings. The user
+     can choose their old settings or default settings. Then a lobby can be created
+     where other users can join. -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet"
+          type="text/css"
+          href="settings_style.css"> 
+        <title>Settings</title>
+    </head>
+
+    <body>   
+        
+        <div id="page"> 
+
+            <input type="button" id="settingsBack" onclick="window.location.href = '/home.html';" value="Back to Home">
+        
+            <h1 id="title">Settings</h1>
+            <div id="settings">
+                <div class="settings_elem" id="numPlayDiv">
+                    <label for="numPlayers">Number of Players</label>
+                    <input id="numPlayers" type="number">
+                </div>
+                    
+                <div class="settings_elem" id="numDeckDiv">
+                    <label for="numDecks">Number of Decks</label>
+                    <input id="numDecks" type="number">
+                </div>
+                    
+                <div class="settings_elem" id = "maxDiv">
+                    <label for="maxBet">Maximum Bet</label>
+                    <input id="maxBet" type="number">
+                </div>
+                
+                <div class="settings_elem" id = "minDiv">
+                    <label for="minBet">Minimum Bet</label>
+                    <input id="minBet" type="number">
+                </div>
+        
+                <div class="settings_elem" id = "startMoneyDiv">
+                    <label for="startMoney">Starting Money</label>
+                    <input id="startMoney" type="number">
+                </div>
+
+                <div class="settings_elem" id = "shuffleAtDiv">
+                    <label for="shuffleAt">Shuffle At</label>
+                    <input id="shuffleAt" type="number">
+                </div>
+
+                <div class="settings_elem" id = "insuranceDiv">
+                    <label for="insurance">Insurance</label>
+                    <input id="insurance" type="number">
+                </div>
+
+                <div class="settings_elem" id = "blackjackPayDiv">
+                    <label for="blackjackPay">Blackjack Pay</label>
+                    <input id="blackjackPay" type="number">
+                </div>
+
+                <div class="settings_elem" id = "h17Div">
+                    <label for="h17">Dealer Hits Soft 17</label>
+                    <input id="h17" type="checkbox">
+                </div>
+
+                <div class="settings_elem" id = "feedbackDiv">
+                    <label for="feedback">Feedback</label>
+                    <input id="feedback" type="checkbox">
+                </div>
+            </div>
+            
+            <div id ="buttonsDiv">
+                <input type="button" class="settings_elem" id="prevSettings" onclick="fillPreviousSettings()" value="Previous Settings">
+                <br>
+                <input type="button" class="settings_elem" id="defSettings" onclick="fillDefaultSettings()" value="Default">
+                <br>
+                <input type="button" class="settings_elem" id="cSettings" onclick="setupGameSettings()" value="Create Lobby">
+            </div>
+        </div>
+        <script src="code.js"></script>
+    </body>
+</html>

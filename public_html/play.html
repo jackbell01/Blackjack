@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- Name: Desmond Goodman-Ahearn, Katelen Tellez, Jack Bell
+     Final Project:  BlackJack
+     Purpose: The play page where the user chooses to either make a new
+     game with the settings they want or they can join a lobby that using the
+     game id from the host. -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet"
+          type="text/css"
+          href="play_style.css"> 
+        <title>Game</title>
+    </head>
+
+    <body>   
+        <div id="page"> 
+            
+            <input type="button" id="gameBack" onclick="window.location.href = '/home.html';" value="Back to Home">
+
+            <img src=img/play_logo.png alt=logo id="logo"> 
+
+            <div id="buttons">
+                <input type="button" id="newGame" onclick="window.location.href = '/settings.html';" value="New Game">
+                <input type="button" id="joinGame" onclick="window.location.href = '/joinGame.html';" value="Join Game">   
+            </div>
+
+        </div>
+        <script src="code.js"></script>
+    </body>
+</html>

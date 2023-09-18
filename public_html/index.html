@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Name: Desmond Goodman-Ahearn, Katelen Tellez, Jack Bell
+     Final Project:  BlackJack
+     Purpose: The login page where the user can create a new account and
+     login to an existing account. -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <title>Login</title>
+    </head>
+
+    <body>   
+
+        <div id="page">
+
+            <img src=img/new_logo.png alt=logo id="logo"> 
+    
+            <div id="loginArea">
+                <h2>Login</h2>
+                <div id = "userLoginDiv">
+                    <label for="usernameLogin">Username</label>
+                    <input id="usernameLogin" type="text">
+                </div>
+                    
+                <div id = "passLoginDiv">
+                    <label for="passwordLogin">Password</label>
+                    <input id="passwordLogin" type="password">
+                </div>
+
+                <input type="button" id="login" onclick="loginUser()" value="Login">
+
+                <h3 id ="loginErr"></h3>
+            </div>
+
+            <div id="createAccountArea">
+
+                <h2>Create Account</h2>
+                    
+                <div id = "userDiv">
+                    <label for="username">Username</label>
+                    <input id="username" type="text">
+                </div>
+                    
+                <div id = "passDiv">
+                    <label for="password">Password</label>
+                    <input id="password" type="password">
+                </div>
+                
+                <input type="button" id="addUser" onclick="createUser()" value="Create"> 
+
+                <h3 id ="createErr"></h3>
+            </div>
+        </div>
+
+        <script src="code.js"></script>
+    </body>
+</html>

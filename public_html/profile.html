@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Name: Desmond Goodman-Ahearn, Katelen Tellez, Jack Bell
+     Final Project:  BlackJack
+     Purpose: The profile page where the user can select a profile picture.  -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet"
+          type="text/css"
+          href="profile_style.css"> 
+        <title>Profile</title>
+    </head>
+
+    <body>   
+        <h1>This is the profile page</h1>
+        <input type="button" id="profileBack" onclick="window.location.href = '/home.html';" value="Back to Home">
+        
+        <div class="imgDiv">
+            <img src=img/default_profile.png class = "profileImg" alt=profile_pic onclick="pickImage(this.src);"> 
+            <img src=img/profile1_black.png class = "profileImg" alt=profile_pic onclick="pickImage(this.src);"> 
+            <img src=img/profile1_blue.png class = "profileImg" alt=profile_pic onclick="pickImage(this.src);"> 
+            <img src=img/profile1_red.png class = "profileImg" alt=profile_pic onclick="pickImage(this.src);"> 
+            <img src=img/profile1_yellow.png class = "profileImg" alt=profile_pic onclick="pickImage(this.src);"> 
+        </div>
+        <div class="imgDiv">
+            <img src=img/profile2_blue.png class = "profileImg" alt=profile_pic onclick="pickImage(this.src);" > 
+            <img src=img/profile2_red.png class = "profileImg" alt=profile_pic onclick="pickImage(this.src);"> 
+            <img src=img/profile2_white.png class = "profileImg" alt=profile_pic onclick="pickImage(this.src);"> 
+            <img src=img/profile2_yellow.png class = "profileImg" alt=profile_pic onclick="pickImage(this.src);"> 
+            <img src=img/profile3_blue.png class = "profileImg" alt=profile_pic onclick="pickImage(this.src);"> 
+        </div>
+        <div class="imgDiv">
+            <img src=img/profile3_red.png class = "profileImg" alt=profile_pic onclick="pickImage(this.src);"> 
+            <img src=img/profile3_yellow.png class = "profileImg" alt=profile_pic onclick="pickImage(this.src);"> 
+            <img src=img/profile4_blue.png class = "profileImg" alt=profile_pic onclick="pickImage(this.src);"> 
+            <img src=img/profile4_red.png class = "profileImg" alt=profile_pic onclick="pickImage(this.src);"> 
+            <img src=img/profile4_yellow.png class = "profileImg" alt=profile_pic onclick="pickImage(this.src);"> 
+        </div>
+
+        <script src="code.js"></script>
+        <script src="profile.js"></script>
+    </body>
+</html>

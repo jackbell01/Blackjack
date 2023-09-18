@@ -1,0 +1,64 @@
+/*  Name: Desmond Goodman-Ahearn, Katelen Tellez, Jack Bell
+     Final Project:  BlackJack
+     Purpose: The CSS file for play.html */
+
+body {
+    margin: 0px;
+    background-color: black;
+    border-style: dotted;
+    border-color: white;
+    border-width: 8px;
+}
+
+#page {
+    border: dotted rgb(247, 191, 35) 5px;
+}
+
+#gameBack {
+    padding: 10px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    border: ridge rgb(247, 191, 35)  5px;
+    color: white;
+    background-color: black;
+}
+
+#logo {
+    width: 60%;
+    margin-left: 20%;
+    display: block;
+}
+
+#buttons {
+    text-align: center;
+}
+
+#newGame {
+    padding: 10px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    border: ridge rgb(247, 191, 35)  5px;
+    color: white;
+    background-color: black;
+}
+
+#joinGame {
+    padding: 10px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 10%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    border: ridge rgb(247, 191, 35)  5px;
+    color: white;
+    background-color: black;
+}

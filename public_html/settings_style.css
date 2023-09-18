@@ -1,0 +1,97 @@
+/*  Name: Desmond Goodman-Ahearn, Katelen Tellez, Jack Bell
+     Final Project:  BlackJack
+     Purpose: The CSS file for settings.html */
+
+body {
+    background-color: black;
+    margin: 0px;
+    border-style: dotted;
+    border-color: white;
+    border-width: 8px;
+}
+
+#page {
+    border: dotted rgb(247, 191, 35) 5px;
+    color: white;
+}
+
+#settingsBack {
+    padding: 10px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    border: ridge rgb(247, 191, 35)  5px;
+    color: white;
+    background-color: black;
+}
+
+#title {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    font-size: 45px;
+}
+
+#settings {
+    border: ridge white 8px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.settings_elem {
+    text-align:center;
+    padding: 10px;
+}
+
+#h17 {
+    width: 35px;
+}
+
+#buttonsDiv {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#cSettings {
+    margin-top: 20px;
+
+    padding: 10px;
+    width: 150px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    border: ridge rgb(247, 191, 35)  5px;
+    color: white;
+    background-color: black;
+}
+
+#defSettings {
+    margin-top: 20px;
+
+    padding: 10px;
+    width: 150px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    border: ridge rgb(247, 191, 35)  5px;
+    color: white;
+    background-color: black;
+}
+
+#prevSettings {
+    margin-top: 20px;
+
+    padding: 10px;
+    width: 150px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    border: ridge rgb(247, 191, 35)  5px;
+    color: white;
+    background-color: black;
+}
+

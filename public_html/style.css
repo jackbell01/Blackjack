@@ -1,0 +1,102 @@
+/*  Name: Desmond Goodman-Ahearn, Katelen Tellez, Jack Bell
+     Final Project:  BlackJack
+     Purpose: The CSS file for index.html */
+
+#loginErr {
+    color: red;
+}
+
+#createErr {
+    color: red;
+}
+
+body {
+    margin: 0px;
+    background-color: black;
+    border-style: dotted;
+    border-color: white;
+    border-width: 8px;
+}
+
+#page {
+    border: dotted rgb(247, 191, 35) 5px;
+}
+
+#welcome {
+    width: 35%;
+    margin-top: 5%;
+    margin-left: 32.5%;
+    display: block;
+}
+
+#logo {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    display: block;
+    border: ridge white 8px;
+}
+
+#loginArea {
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    margin-left: 18%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#userLoginDiv {
+    padding: 10px;
+}
+
+#passLoginDiv {
+    padding: 10px;
+}
+
+#login {
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#userDiv {
+    padding: 10px;
+}
+
+#passDiv {
+    padding: 10px;
+}
+
+#addUser {
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#createAccountArea {
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    margin-left: 20%;
+}
+
+#settings {
+    color: white;
+}
+
+#gameDiv {
+    position: fixed;
+    top: 10%;
+    right: 25%;
+    width: 50%;
+    height: 50%;
+    background-color: beige;
+}
+
+#gameId {
+    color: white;
+}
+
+#playerList {
+    color: white;
+}

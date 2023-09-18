@@ -1,0 +1,31 @@
+/*  Name: Desmond Goodman-Ahearn, Katelen Tellez, Jack Bell
+     Final Project:  BlackJack
+     Purpose: The CSS file for joinGame.html */
+
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+#input_area {
+    color: white;
+    border-style: ridge;
+    border-color: white;
+    border-width: 8px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 25%;
+    margin-left: 30%;
+    width: 40%;
+}
+
+#joinGameButton {
+    font-family:'Times New Roman', Times, serif;
+    width: 80px;
+    margin-left: 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    border: ridge rgb(247, 191, 35)  5px;
+    color: white;
+    background-color: black;
+}

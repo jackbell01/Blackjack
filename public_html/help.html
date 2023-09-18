@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- Name: Desmond Goodman-Ahearn, Katelen Tellez, Jack Bell
+     Final Project:  BlackJack
+     Purpose: The help page where the user can read about how to play the game. The 
+     settings and page navigation are explained here.-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet"
+          type="text/css"
+          href="help_style.css"> 
+        <title>Help</title>
+        
+    </head>
+
+    <body>   
+
+        <div id="page">
+
+            <input type="button" id="helpBack" onclick="window.location.href = 'home.html';" value="Back to Home">
+        
+            <div id="how_to_play">
+                <h1 class="subtitle"> How to Play Black Jack</h1>
+                <iframe id="tutorial"
+                    src="https://www.youtube.com/embed/PljDuynF-j0">
+                </iframe>
+            </div>
+
+            <div id="basicStrategy">
+                <h1 class="subtitle"> A Guide to Basic Strategy </h1>
+                <img src=img/basic_strategy_chart.png alt=chart id="chart"> 
+                <p id="text"> Image courtesy of: </p>
+                <a href="https://www.blackjackapprenticeship.com/wp-content/uploads/2019/07/BJA_S17.pdf" id ="blackjackapprenticeshipLink"> Black Jack Apprenticeship </a>
+            </div>
+
+            <div id="otherChart">
+                <h1 class="subtitle"> The "Illustrious 18" </h1>
+                <img src=img/ill_18.png alt=eighteen_chart id="eighteen_chart"> 
+            </div>
+
+            <div id="navigate_website">
+                <h1 class="subtitle"> Navigating the Website </h1>
+
+                <h3> Tutorial </h3>
+                <p> 
+                    Click on the "Tutorial" button on the home page to learn how to use 
+                    basic strategy for Black Jack by playing a comprehensive 
+                    guided walkthrough. 
+                </p>
+
+                <h3> Play </h3>
+                <p>
+                    Click on the "Play" button on the home page to play a full game against
+                    an AI dealer. The rules of a basic game of Black Jack can be found in the
+                    video above. The game will be played based on the settings configured on
+                    the settings page.
+                </p>
+
+                <h3> Stats </h3>
+                <p>
+                    Click on the "Stats" button on the home page to view your personal statistics
+                    based on your game history. 
+                </p>
+                 
+                <h3> Editing Profile Picture </h3>
+                <p>
+                    To edit the profile picture, click on the current profile image and you will be 
+                    redirected to a page with various profile picture options that you may choose from.
+                </p>
+                 
+                <h3> Settings </h3>
+                <p>
+                    The user will be prompted to configure the settings of a game before beginning
+                    game play. The elements that require specification are: 
+                </p>
+               
+                <ul id="list">
+                    <li> Number of Players: the number of players allowed in a single session </li>
+                    <li> Number of Decks: the number of decks you would like to play with for 
+                        a single game.
+                    </li>
+                    <li> Maximum Bet: the largest amount allowed for any bet.</li>
+                    <li> Minimum Bet: the minimum amount required to be bet before a hand can be 
+                        dealt.
+                    </li>
+                    <li> Starting Money: the amount of "money" the player(s) will start with. </li>
+                    <li> Shuffle At: the amount of cards left in the shoe before the dealer shuffles</li>
+                    <li> Insurance: a ratio for what the insurance payout will be (usually 2:1). 
+                        MUST BE ENTERED AS A DECIMAL. </li>
+                    <li> Blackjack Pay: similar to Insurance, however the payout will usually be 3:1
+                        MUST BE ENTERED AS A DECIMAL.</li>
+                    <li> H17: indicates whether the dealer will hit on a soft 17 </li>
+                 </ul>
+            
+            </div>
+    
+        </div>
+
+        <script src="code.js"></script>
+    </body>
+</html>

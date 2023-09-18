@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- Name: Desmond Goodman-Ahearn, Katelen Tellez, Jack Bell
+     Final Project:  BlackJack
+     Purpose: The home page where the user can navigate through the different
+     pages for the game. -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet"
+          type="text/css"
+          href="home_style.css"> 
+        <title>Home</title>
+    </head>
+
+    <body>   
+
+        <div id="page">
+
+            <img src=img/default_profile.png alt=profile_pic onclick="window.location.href = 'profile.html';" id="profile_pic"> 
+            <div id="userAttr">
+                <h3 id="username"></h3>
+            </div>
+
+            <div id="navigation"> 
+                <div class="buttons">
+                    <input type="button" id="tutorial" onclick="startPractice();" value="Practice">
+                </div>
+
+                <div class="buttons">
+                    <input type="button" id="play" onclick="window.location.href = 'play.html';" value="Play">
+                </div>
+
+                <div class="buttons">
+                    <input type="button" id="stats" onclick="window.location.href = 'stats.html';" value="Stats">
+                </div>
+
+                <div class="buttons">
+                    <input type="button" id="help" onclick="window.location.href = 'help.html';" value="How to Play">
+                </div>
+            </div>
+
+        </div>
+
+        <script src="code.js"></script>
+        <script src="profile.js"></script>
+    </body>
+</html>

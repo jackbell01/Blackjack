@@ -1,0 +1,130 @@
+/*  Name: Desmond Goodman-Ahearn, Katelen Tellez, Jack Bell
+     Final Project:  BlackJack
+     Purpose: The CSS file for game.html */
+
+body {
+    background-color: black;
+}
+
+#gameDiv {
+    color: white;
+    border: ridge rgb(20, 14, 3) 15px;
+    height: 650px;
+    width: 90%;
+    background-color: rgb(5, 82, 27);
+
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+#topDiv {
+    height: 2%;
+    width: 100%;
+    display: inline-block;
+}
+
+#dealerDiv {
+    display: block;
+    height: 30%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#playersDiv {
+    display: inline-block;
+    height: 55%;
+    width: 100%;
+    text-align: center;
+}
+
+#leave {
+    font-family: 'Times New Roman', Times, serif;
+    width: auto;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    border: ridge rgb(87, 3, 3) 5px;
+    color: white;
+    background-color: black;
+    float: left;
+}
+
+.buttons {
+    font-family: 'Times New Roman', Times, serif;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    border: ridge rgb(247, 191, 35) 5px;
+    color: white;
+    background-color: black;
+    display: none;
+}
+
+.playerDiv {
+    text-align: center;
+    float: left;
+    height: 100%;
+}
+
+.cardImg {
+    height: 100%;
+    min-height: 60px;
+    max-height: 135px;
+}
+
+.handsDiv {
+    margin: 0;
+    padding: 2px;
+    height: 60%;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+input {
+    display: none;
+}
+
+label {
+    display: none;
+}
+
+#shoe{
+    width: 0;
+    height: 100%;
+    color: white;
+    background-color: rgb(247, 191, 35);
+    top: 3%;
+    right: 5%;
+}
+
+#shoeContainer{
+    width: 140px;
+    height: 10px;
+    margin: 10px;
+    font-size: 14px;
+    border: ridge rgb(0, 0, 0) 5px;
+    color: white;
+    background-color: black;
+    top: 3%;
+    right: 5%;
+    float: left;
+}
+
+#shoelable{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: white;
+    float: left;
+    width: auto;
+}
+
+#decksRemaining{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    float: right;
+    width: auto;
+}

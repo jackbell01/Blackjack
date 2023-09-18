@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- Name: Desmond Goodman-Ahearn, Katelen Tellez, Jack Bell
+     Final Project:  BlackJack
+     Purpose: The stats page where the user can view their stats from
+     playing the game. -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet"
+          type="text/css"
+          href="stats_style.css"> 
+        <title>Home</title>
+    </head>
+
+    <body>   
+
+        <div id="page">
+
+            <input type="button" id="statsBack" onclick="window.location.href = 'home.html';" value="Back to Home">
+
+            <img src=img/default_profile.png alt=profile_pic id="profile_pic"> 
+            <div id="userAttr">
+                <h3 id="username"></h3>
+            </div>
+
+            
+            <div id="statsDiv"> 
+                <h2>Stats</h2>
+                <div id = gamesPlayed></div>
+                <br>
+                <div id = amountWon></div>
+                <br>
+                <div id = amountLost></div>
+                <br>
+                <div id = totalProfits></div>
+                <br>
+                <div id = correctMoves></div>
+                <br>
+                <div id = mistakes></div>
+                <br>
+                <h4 id = "diclamer">*Correct moves and mistakes are based off of following basic strategy and the illustrious 18 playing deviations.</h3>
+            </div>
+
+        </div>
+
+        <script src="code.js"></script>
+        <script src="stats.js"></script>
+        <script src="profile.js"></script>
+    </body>
+</html>

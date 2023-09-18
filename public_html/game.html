@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- Name: Desmond Goodman-Ahearn, Katelen Tellez, Jack Bell
+     Final Project:  BlackJack
+     Purpose: The game page where the user plays the game. Buttons are used
+     to interact with the game. -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          type="text/css"
+          href="game_style.css"> 
+    <title>Current game</title>
+</head>
+<body>
+  
+    <div id = "gameDiv">
+            <div id = "topDiv">
+                <button id = "leave">leave game</button>
+                <div id = "decksRemaining">
+                    <h1 id = "shoelable">Decks remaining out of 6</h1>
+                    <div id = "shoeContainer">
+                        <div id = "shoe">
+
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+            <div id = "dealerDiv">
+                   
+            </div>
+
+            <div id ="playersDiv">
+        
+            </div>
+
+            <div id = "menuDiv">
+                <button class="buttons"  id="stand">stand</button>
+                <button class="buttons" id="hit">hit</button>
+                <button class="buttons" id="double">double</button>
+                <button class="buttons" id="split">split</button>
+
+                    
+                <label for="bet" id = "betLable">$ Bet:</label>
+                <input type="number" name ="bet" id ="bet" min = 0 max = 0>
+                <button class="buttons" id = "placeBet">place bet</button>
+
+                <label for="insuranceBet" id = "insuranceBetLable">$ Bet:</label>
+                <input type="number" name = "insuranceBet" id ="insuranceBet"  min = 0 max = 0>
+                <button class="buttons" id = "placeInsuranceBet">place insurance bet</button>
+
+                <button class="buttons" id = "noInsurance">no insurance</button>
+            </div>
+    </div>
+
+    <script src="currentGame.js"></script>
+    <script src="code.js"></script>
+</body>
+</html>
